@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Latitude vs X</title>
+    <title>Lat vs Wind</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -20,7 +20,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          <a class="navbar-brand" href="#">LATITUDE</a>
+          <a class="navbar-brand" href="index.html">LATITUDE</a>
         </div>
   
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -46,42 +46,42 @@
       <div class="row">
 
         <div class="col-md-8">
-          <h2 class="page-header">Summary: Latitude vs. X</h2>
+          <h2 class="page-header">Latitude vs. Wind Speed</h2>
           <div class="thumbnail">
-          	 <img src="maxtemp.png" alt="...">
+          	 <img src="wind.png" alt="...">
           </div>
-          <p class="lead">The purpose of this project was to see if there are correlations between latitude and weather elements. Over 1,000 coordinates were randomly generated to find the nearest city to that coordinate with Python's Citipy library. Redundant cities were removed and then ran through Open Weather Map's API to collect official coordinates, max temperatures, humidity, cloudiness, and wind speeds. All of the data were then charted to visualize relationship between lattitude and each of the four weather elements. </p>
+          <p class="lead">The data does not appear to show any correlation between latitude and wind speeds.</p>
         </div>
 
         <div class="col-md-4">
           <div class="container">
           <h3 class="page-header">Visualizations</h3>
-      	    <div class="col-md-2">
-      	      <div class="thumbnail">
+            <div class="col-md-2">
+              <div class="thumbnail">
                 <a href="maxtemp.html">
-          	    <img src="maxtemp.png" alt="Temperature Graph">
-          	    </a>
+                <img src="maxtemp.png" alt="Temperature Graph">
+                </a>
               </div>
               <div class="thumbnail">
                 <a href="humid.html">
-          	    <img src="humid.png" alt="Humidity Graph">
-          	    </a>
+                <img src="humid.png" alt="Humidity Graph">
+                </a>
               </div>
-            </div>  	 
+            </div>     
             <div class="col-md-2">
               <div class="thumbnail">
                 <a href="cloud.html">
-          	    <img src="cloud.png" alt="Cloudiness Graph">
-          	    </a>
+                <img src="cloud.png" alt="Cloudiness Graph">
+                </a>
               </div>
               <div class="thumbnail">
                 <a href="wind.html">
-          	    <img src="wind.png" alt="Wind Speed Graph">
-          	    </a>
+                <img src="wind.png" alt="Wind Speed Graph">
+                </a>
               </div>
             </div> 
           </div>
-        </div> 
+        </div>  
 
 
       </div>      
